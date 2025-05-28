@@ -1,0 +1,29 @@
+/*Definiendo el color en la etiqueta*/
+p {
+    color: blue;
+}
+
+.text {
+    color: green;
+}
+/*esta definiendo el color con el id*/
+#unique {
+    color: red !important;
+}
+
+div p .text {
+    color: purple;
+}
+
+div > p {
+    font-weight: bold;
+}
+
+p:first-child {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+/*El error es que esta definiendo colores a una etiqueta de parra con la clase, id y la etiqueta entonces esta mal estructurado*/
